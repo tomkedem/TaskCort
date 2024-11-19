@@ -1,0 +1,28 @@
+.cases-container {
+  width: 75%;
+  display: flex;
+  margin-left: 12.5%;
+  flex-direction: column;
+}
+
+.case-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.sort-label {
+  font-size: 1rem;
+}
+
+.result-count {
+  font-weight: bold;
+  text-align: right;
+  margin-left: auto;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}

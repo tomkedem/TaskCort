@@ -1,0 +1,23 @@
+<div class="cases-container">
+  <!-- Search Bar -->
+  <app-search-bar
+    (searchChanged)="onSearch($event)"
+    (filterChanged)="onFilterStatus($event)"
+  ></app-search-bar>
+
+  <!-- Display number of results and sort dropdown -->
+  
+  <div class="case-count">
+    <div dir="rtl">
+      נמצאו {{ filteredCount }} תוצאות
+      <span class="sort-label">&nbsp;&nbsp;|&nbsp;&nbsp;מיין לפי: </span>
+      <select (change)="onSortChange($event)">
+        <option value="caseId">מספר תיק</option>
+        <option value="dateOpened">תאריך פתיחה</option>
+      </select>
+    </div>
+    <div class="result-count">תוצאות חיפוש</div>
+  </div>
+  <!-- Case List -->
+  <app-case-list [cases]="filteredCases"></app-case-list>
+</div>

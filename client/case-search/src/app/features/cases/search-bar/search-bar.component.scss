@@ -1,0 +1,62 @@
+.search-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh; /* 100% מהגובה של המסך */
+  margin: 0;
+  font-size: 2.5rem; /* ניתן להתאים את הגודל לפי הצורך */
+  font-weight: bold;
+  text-align: center;
+  direction: rtl;
+}
+
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+  input {
+    width: 50%; // התאמת הרוחב
+    padding: 10px 15px; // ריווח פנימי
+    font-size: 16px; // גודל פונט ברור
+    border: 2px solid #ccc; // מסגרת ברורה
+    border-radius: 10px; // עיגול פינות
+    transition: border-color 0.3s;
+
+    &:focus {
+      outline: none;
+      border-color: #002f6c; // שינוי צבע המסגרת במצב פוקוס
+      box-shadow: 0px 0px 5px rgba(0, 47, 108, 0.5); // הוספת הצללה
+    }
+  }
+
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+
+    button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 8px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      color: #333;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #002f6c;
+        color: white;
+      }
+
+      &.active {
+        background-color: #002f6c;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}

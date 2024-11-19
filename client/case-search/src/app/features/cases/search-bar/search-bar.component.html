@@ -1,0 +1,21 @@
+<div class="search-container">
+  <h1 class="search-title">חיפוש תיקים</h1>
+  <div class="search-bar" dir="rtl">
+    <!-- תיבת החיפוש -->
+    <input
+      class="search-input"
+      type="text"
+      [(ngModel)]="searchValue"
+      placeholder="הזן מספר תיק או נושא"
+      (input)="onSearch()"
+    />
+
+    <!-- כפתורי הסינון -->
+    <div class="filter-buttons">
+      <button [class.active]="filterStatus === 'All'" (click)="onFilterChange('All')">הכל</button>
+      <button [class.active]="filterStatus === 'פתוח'" (click)="onFilterChange('פתוח')">תיקים פעילים</button>
+      <button [class.active]="filterStatus === 'סגור'" (click)="onFilterChange('סגור')">תיקים סגורים</button>
+      <button [class.active]="filterStatus === 'My Cases'" (click)="onFilterChange('My Cases')">תיקים שלי</button>
+    </div>
+  </div>
+</div>

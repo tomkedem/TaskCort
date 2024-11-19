@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oFoCwskwqBbghxaNHVI62l+mPw59lWFIO2MyaP8C5oc=",
+  "Source": "CaseManagementService",
+  "BasePath": "_content/CaseManagementService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,20 @@
+<div class="case-list" dir="rtl">
+  <div *ngFor="let caseItem of cases" class="case-item">
+    <div class="case-header">
+      <span class="case-id">מספר תיק: {{ caseItem.caseId }}</span>
+      <span class="case-title">{{ caseItem.title }}</span>
+    </div>
+    <div class="case-details">
+      <span>סוג תיק: {{ caseItem.caseType }}</span>
+      <span>קופת זמן: {{ caseItem.timePeriod }}</span>
+      <span>תאריך פתיחה: {{ caseItem.dateOpened }}</span>
+      <span>תאריך קרוב: {{ caseItem.nearestDate }}</span>
+      <span>סטטוס: {{ caseItem.status }}</span>
+    </div>
+    <div class="case-meta">
+      <span>מגיש ערר: {{ caseItem.submitter }}</span>
+      <span>י״ור ועדה: {{ caseItem.chairperson }}</span>
+      <span>מצב ציבורי: {{ caseItem.publicStatus }}</span>
+    </div>
+  </div>
+</div>

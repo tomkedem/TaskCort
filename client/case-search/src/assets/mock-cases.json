@@ -1,0 +1,39 @@
+[
+    {
+      "caseId": 108,
+      "title": "בדיקה שבירת החלטה 33",
+      "caseType": "ערר חברה גדולה - הוצאות מוגזמות",
+      "timePeriod": "ספטמבר-אוקטובר 2023",
+      "dateOpened": "2022-10-15",
+      "nearestDate": "2024-07-15",
+      "status": "פתוח",
+      "submitter": "אברהם אברהמי",
+      "chairperson": "ישראל ישראלי",
+      "publicStatus": "עדיין לא מונה"
+    },
+    {
+      "caseId": 107,
+      "title": "בדיקה שבירת החלטה",
+      "caseType": "ערר חברה גדולה - הוצאות מוגזמות",
+      "timePeriod": "נובמבר-דצמבר 2023",
+      "dateOpened": "2023-06-15",
+      "nearestDate": "2024-07-15",
+      "status": "סגור",
+      "submitter": "תמר בן עזרא",
+      "chairperson": "דני לוי",
+      "publicStatus": "נמצא ציבורי"
+    },
+    {
+      "caseId": 106,
+      "title": "בדיקה שבירת החלטה",
+      "caseType": "ערר חברה גדולה - הוצאות מוגזמות",
+      "timePeriod": "נובמבר-דצמבר 2023",
+      "dateOpened": "2023-06-15",
+      "nearestDate": "2024-07-15",
+      "status": "סגור",
+      "submitter": "תמר בן עזרא",
+      "chairperson": "דני לוי",
+      "publicStatus": "נמצא ציבורי"
+    }
+  ]
+  
